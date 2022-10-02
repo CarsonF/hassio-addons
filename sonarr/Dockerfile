@@ -74,7 +74,8 @@ RUN if ! command -v bash >/dev/null 2>/dev/null; then (apt-get update && apt-get
 ENV PACKAGES="jq \
     curl \
     cifs-utils \
-    keyutils"
+    keyutils \
+    nginx"
 
 # Automatic apps & bashio
 # hadolint ignore=SC2015

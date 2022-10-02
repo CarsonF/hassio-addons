@@ -44,6 +44,7 @@
     "PGID": "0",
     "PUID": "0"
   },
+  "ingress": true,
   "init": false,
   "map": [
     "config:rw",
@@ -59,6 +60,7 @@
     "cifsusername": "<username>",
     "networkdisks": "<//SERVER/SHARE>,<//SERVER2/SHARE2>"
   },
+  "panel_icon": "mdi:television",
   "ports": {
     "8989/tcp": 8989
   },
@@ -81,6 +83,6 @@
   },
   "slug": "sonarr_nas",
   "url": "https://github.com/alexbelgium/hassio-addons/tree/master/sonarr",
-  "version": "3.0.9.1549-2-bugfix",
+  "version": "3.0.9.1549-3",
   "webui": "[PROTO:ssl]://[HOST]:[PORT:8989]"
 }

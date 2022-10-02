@@ -1,3 +1,7 @@
+## 3.0.9.1549-3 (10-02-2022)
+
+- Ingress addition
+
 ## 3.0.9.1549 (09-08-2022)
 
 - Update to latest version from linuxserver/docker-sonarr
